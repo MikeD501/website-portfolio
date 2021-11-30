@@ -292,10 +292,12 @@ nav li {
 
     .grid_item:last-child {
             -ms-grid-column: 1;
+                grid-column: 1;
                 grid-column-start: 1;
             -ms-grid-column-span: 3;
             grid-column-end: 4;
             -ms-grid-row: 1;
+                grid-row: 1;
                 grid-row-start: 1;
             -ms-grid-row-span: 0;
             grid-row-end: 1;
