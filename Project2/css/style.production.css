@@ -97,8 +97,12 @@ button  {
     border-width: 3px;
     border-color: #03045E;
  }
-
-
+/*
+button p {
+    margin: 0;
+    padding: 0;  
+}
+*/ 
 button:hover  {
     background-color: #03045E;
     border-radius: 5px;
@@ -107,8 +111,11 @@ button:hover  {
             transform: rotate(2deg);
 }
 
-button:hover a {
+
+button:hover span {
     color: #CAF0F8;
+    margin: 0;
+    padding: 0;    
 }
 
 table, td, th {
